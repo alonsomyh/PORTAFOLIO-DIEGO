@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PORTAFOLIO WEB</title>
+	<link rel="shortcut icon" href="img/logo.svg">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="stylesheet" href="css/estilo-inicio.css">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="java/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    	touch: true,
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+    });
+  });
+</script>
+</head>
+<body>
+	<div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  	</div>
+
+	<div class="container">
+		<nav class="nav-main">
+			<ul class="nav-menu">
+				<li>
+					<a class="a-main" href="#">INICIO</a>
+				</li>
+				<li>
+					<a class="a-main" href="#">CONTACTO</a>
+				</li>
+				<li>
+					<a class="a-main" href="#">SOBRE MI</a>
+				</li>
+				<li>
+					<a class="a-main" href="#">PROYECTOS</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<header class="imagen-estatico">
+		<img class="img-inicio" src="img/foto.jpeg" alt="imagen">
+		<aside class="aside-inicio">
+			<h1 class="h1-inicio">TECNICO</h1>
+			<h3 class="h3-inicio">INGENIERO DE SOFTWARE</h3>
+			<a href="" class="btn">CONTACTO <i class="fas fa-chevron-rith"></i></a>
+			<a href="" class="btn">SOBRE MI <i class="fas fa-chevron-rith"></i></a>
+		</aside>
+	</header>
+	<section class="section-inicio">
+		<article class="article-inicio">
+			<div class="yo-inicio">
+				<h3 class="h3-sobre">SOBRE MI </h3>
+				<p class="p-inicio">Que tal mi nombre es Diego y tendo 19 años, soy estudiante del instituto "Senati" de la carrera de Ingeniería De Software Con Inteligencia Artificial. </p>
+				<a href="" class="btn yo-bt">CONOCEME MÁS <i class="fas fa-chevron-rith"></i></a>
+			</div>
+		</article>
+	</section>
+
+	<section class="section-slider">
+		<article class="article-slider">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<a href="#"><img src="img/comolsa-1.jpg" alt=""></a>
+						<section class="flex-caption">
+						<!--<p>LOREM IPSUM 1</p>-->
+						</section>
+					</li>
+					<li>
+						<a href="#"><img src="img/comolsa-2.jpg" alt=""></a>
+						<section class="flex-caption">
+						<!--<p>LOREM IPSUM 2</p>-->
+						</section>
+					</li>
+					<li>
+						<a href="#"><img src="img/comolsa-3.jpg" alt=""></a>
+						<section class="flex-caption">
+						<!--<p>LOREM IPSUM 3</p>-->
+						</section>
+					</li>
+				</ul>
+			</div>
+			<aside class="aiside-comolsa-1">
+				<div class="molino-inicio">
+				<h3 class="h3-molino">MOLINOS COMOLSA </h3>
+				<p class="p-molino">Molinos COMOLSA, desea implementar una aplicación que permita gestionar la
+					boleta de pago del trabajador La aplicación debe solicitar los siguientes datos:  </p>
+				<a href="" class="btn comolsa">VER PROYECTO <i class="fas fa-chevron-rith"></i></a>
+			</div>
+			</aside>
+		</article>
+	</section>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+  <script src="java/menu.js"></script>
+
+</body>
+</html>
